@@ -21,9 +21,9 @@ Data obtained from the [GC6](https://github.com/allisonhorst/palmerpenguins) in 
 
 st.sidebar.header('User Input Features Simulation')
 
-st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
-""")
+#st.sidebar.markdown("""
+#[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+#""")
 
 # Collects user input features into dataframe
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
