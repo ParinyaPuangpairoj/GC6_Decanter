@@ -23,7 +23,7 @@ Data obtained from the [GC6] in XX by MR PARINYA PU.
 st.sidebar.header('User Input Features Simulation')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+[Example CSV input file]
 """)
 
 # Collects user input features into dataframe
